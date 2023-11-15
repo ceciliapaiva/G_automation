@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: #01012b9b;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+img{
+    height: 60px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+nav ul a{
+    display: block;
+    color: white;
+    margin: 0 25px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.text{
+text-align: center;
+margin: 100px auto;
+padding: 100px auto;
+color: white;
+}
+.text p{
+    padding-top: 25px;
+    color: rgb(245, 241, 235);
+    margin: 0 50px;
+}
+.btn{
+    background-color: #43437f;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 50px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2;
+}
+.btn:hover{
+    background-color: #6999e6;
+}
+header{
+    background-image: url(/img/thisisengineering-raeng-32PpagSzeGs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wtts{
+    height: 0px;
+    top: 86%;
+    left: 93%;
+    display: flex;
+    position:fixed;
+}

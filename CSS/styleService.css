@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-image: url(/img/thisisengineering-raeng-32PpagSzeGs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img{
+    height: 60px;
+}
+
+header{
+    background-color: #01012bb5;
+}
+.menu{
+    background-color: #01012b;
+    padding-bottom: 2%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav ul a{
+    margin: 0 10px;
+    color: white;
+}
+
+section{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    margin: 8% 50px;
+}
+
+.wtts{
+    height: 0px;
+    top: 86%;
+    left: 93%;
+    display: flex;
+    position:fixed;
+}
+

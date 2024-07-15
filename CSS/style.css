@@ -8,10 +8,8 @@
 }
 
 .container{
-    background-color: #01012b9b;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 5%;
+    display: flex;
+    justify-content: center;
 }
 
 img{
@@ -19,37 +17,77 @@ img{
 }
 
 nav{
+    position: fixed;
     display: flex;
-    align-items: center;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
     justify-content: space-between;
-    padding-top: 5%;
-}
-nav ul{
-    display: flex;
     align-items: center;
-   
+    z-index: 1000;
 }
-nav ul a{
+
+nav .menu{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav .menu a:hover{
+    color: #002fff;
+}
+
+body::before{
+    content: "";
     display: block;
-    color: white;
-    margin: 0 25px;
+    height: 80px;
+    padding: 1rem;
 }
+
 .banner{
-    display: flex;
+    background: #f5f5f580;
+    padding: 2rem 1rem;    
     align-items: center;
 }
+
+.banner .text{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 1px;
+}
+
 .text{
 text-align: center;
-margin: 100px auto;
-padding: 100px auto;
-color: white;
+margin: 100px;
+padding: 100px;
+color: #000000;
 }
+
 .text p{
-    padding-top: 25px;
-    color: rgb(245, 241, 235);
-    margin: 0 50px;
+ color: #000000;    
 }
-.btn{
+
+.banner .btn{
     background-color: #43437f;
     border-radius: 40px;
     padding: 10px;
@@ -57,11 +95,26 @@ color: white;
     color: white;
     cursor: pointer;
     display: inline-block;
-    transition: 0.2;
+    transition: background-color 0.3s ease;
 }
-.btn:hover{
-    background-color: #6999e6;
+
+.banner .btn:hover{
+    background-color: #128C7E;
+    animation: pulse 0.6s infinite;
 }
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 header{
     background-image: url(/img/thisisengineering-raeng-32PpagSzeGs-unsplash.jpg);
     background-position: center;

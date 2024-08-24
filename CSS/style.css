@@ -21,8 +21,7 @@ nav{
     display: flex;
     top: 0;
     width: 100%;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2%;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
@@ -32,8 +31,8 @@ nav .menu{
     list-style: none;
     display: flex;
     gap: 1rem;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
 nav .menu a{
@@ -54,8 +53,14 @@ body::before{
     padding: 1rem;
 }
 
+.mb-3{
+    align-items: center;
+    margin: 10%;
+    padding: 10%;
+}
+
 .banner{
-    background: #f5f5f580;
+    background: #6595feaa;
     padding: 2rem 1rem;    
     align-items: center;
 }
@@ -87,19 +92,18 @@ color: #000000;
  color: #000000;    
 }
 
-.banner .btn{
-    background-color: #43437f;
-    border-radius: 40px;
+.banner .btn {
+    border-radius: 30px;
     padding: 10px;
     margin: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     display: inline-block;
     transition: background-color 0.3s ease;
 }
 
 .banner .btn:hover{
-    background-color: #128C7E;
+    background-color: #ffffff;
     animation: pulse 0.6s infinite;
 }
 

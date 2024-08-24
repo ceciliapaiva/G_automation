@@ -16,41 +16,21 @@ img{
     height: 60px;
 }
 
-nav{
+#img-brand{
+    padding-left: 3%;
+}
+.nav{
+    padding-right: 3%;
+}
+
+.menu{
     position: fixed;
-    display: flex;
     top: 0;
+    left: 0;
     width: 100%;
-    padding: 2%;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000;
-}
-
-nav .menu{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    margin: 0%;
-    padding: 0%;
-}
-
-nav .menu a{
-    text-decoration: none;
-    color: #333;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-}
-
-nav .menu a:hover{
-    color: #002fff;
-}
-
-body::before{
-    content: "";
-    display: block;
-    height: 80px;
-    padding: 1rem;
+    background-color: #ffffff;
 }
 
 .mb-3{

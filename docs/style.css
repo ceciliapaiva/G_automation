@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 60px;
+}
+
+#img-brand{
+    padding-left: 3%;
+}
+.nav{
+    padding-right: 3%;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.mb-3{
+    align-items: center;
+    margin: 10%;
+    padding: 10%;
+}
+
+.banner{
+    background: #6595feaa;
+    padding: 2rem 1rem;    
+    align-items: center;
+}
+
+.banner .text{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 1px;
+}
+.text{
+text-align: center;
+margin: 100px;
+padding: 100px;
+color: #000000;
+}
+
+.text p{
+ color: #000000;    
+}
+
+.banner .btn {
+    border-radius: 30px;
+    padding: 10px;
+    margin: 50px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.banner .btn:hover{
+    background-color: #ffffff;
+    animation: pulse 0.6s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+header{
+    background-image: url(img/thisisengineering-raeng-32PpagSzeGs-unsplash.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wtts{
+    height: 0px;
+    top: 86%;
+    left: 93%;
+    display: flex;
+    position:fixed;
+}
